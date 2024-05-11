@@ -1,0 +1,26 @@
+.footer{
+    background-color: var(--blue);
+    color: white;
+    padding: 2rem 15rem;
+    text-align: center;
+}
+
+.footer h3{
+    padding: 2rem;
+    border-bottom: 1px solid white;
+}
+.footer p{
+    padding: 2rem;
+}
+@media only screen and (max-width:900px){
+    .footer{
+        padding: 2rem;
+    }
+    
+    .footer h3{
+        padding: 2rem0;
+    }
+    .footer p{
+        padding: 2rem 0;
+    }
+}

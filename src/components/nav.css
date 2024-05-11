@@ -1,0 +1,79 @@
+
+
+.navbarLogo{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-inner{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.navbar-custom {
+    box-shadow: 5px 1px 13px 2px rgb(93, 93, 93);
+    z-index: 10000000;
+    background-color: white;
+    height: 6rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100vw;
+    font-family: "Roboto" Cursive;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-toggle .icon-bar {
+    background-color: black;
+}
+.nav-brand, .nav-link{
+    color:rgb(70, 70, 70) !important;
+  transition: ease-in-out 0.25s;
+    
+}
+ .nav-item .nav-link:hover{
+    color: var(--orange) !important;
+}
+.navitems-custom>ul>li {
+    margin: 0 2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar-custom {
+        /* height: 80rem; */
+        font-size: 1rem;
+       
+    }
+    .navitems-custom {
+        margin: 0;
+        text-align: center;
+    }
+    .navitems-custom>ul>li{
+        margin: 0 1rem;
+    }
+    .collapse.show{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+}
+@media only screen and (min-width:600px) and (max-width: 1000px) {
+    .navbar-custom {
+        /* height: 80rem; */
+        font-size: 1.5rem;
+       
+    }
+    .navitems-custom {
+        margin: 0;
+        text-align: center;
+    }
+    .navitems-custom>ul>li{
+        margin: 0 2rem;
+    }
+    .collapse.show{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+}

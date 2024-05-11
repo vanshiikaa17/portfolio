@@ -1,0 +1,114 @@
+#projects{
+    padding: 10rem 0;
+    /* height: 90rem; */
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgba(237, 238, 238, 0.5);
+ 
+}
+#projects h1{
+    text-align: center;
+    font-family:  "Poppins" Cursive;
+    font-size: 3rem;
+    color: var(--blue);
+}
+.projectcard{
+    height: 40rem;
+    width: 80rem;
+    /* margin: 2rem; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.desc>h2{
+    margin-top: 2rem;
+    font-family: "Dancing Script" ;
+    font-size: 3rem;
+}
+.projectcard>img{
+    height: 25rem;
+}
+.desc>p{
+    font-family:"Roboto" Cursive;
+    font-size: 1.5rem;
+    margin: 2rem;
+    
+}
+.moreoptions{
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.moreoptions a{
+    margin: 0.5rem;
+    cursor: pointer;
+    color: var(--blue);
+    transition:ease-in-out 0.25s;
+}
+.moreoptions a:hover{
+    color: var(--orange);
+
+}
+@media screen and (min-width:800px) and (max-width: 1200px) {
+    #projects h1{
+        font-size: 2rem;
+    }
+    .projectcard{
+        width: 50rem;
+       padding: 1rem;
+    }
+    .desc>h2{
+        font-size: 2rem;
+    }
+    .projectcard>img{
+        height: 20rem;
+    }
+    .desc>p{
+        font-size: 1rem;
+        margin: 0;
+        
+    }
+    .moreoptions{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    #projects h1{
+        font-size: 2rem;
+    }
+    .projectcard{
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+       /* margin: 1rem; */
+       padding: 2rem;
+    }
+    .desc>h2{
+        font-family: "Dancing Script" Cursive !important;
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    .projectcard>img{
+        height: 10rem;
+    }
+    .desc>p{
+        font-size: 1rem;
+        margin: 0;
+        
+    }
+    .moreoptions{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+.moreoptions a{
+    margin: 0.3rem;
+}
+}
