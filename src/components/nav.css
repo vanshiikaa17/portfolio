@@ -39,10 +39,10 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .navbar-custom {
         /* height: 80rem; */
-        font-size: 1rem;
+        font-size: 0.8rem;
        
     }
     .navitems-custom {
@@ -50,15 +50,19 @@
         text-align: center;
     }
     .navitems-custom>ul>li{
-        margin: 0 1rem;
+        margin: 0 0.8rem;
     }
     .collapse.show{
         display: flex;
         justify-content: space-evenly;
     }
+    .nav-brand{
+        font-size: 1rem;
+
+    }
     
 }
-@media only screen and (min-width:600px) and (max-width: 1000px) {
+@media only screen and (min-width:650px) and (max-width: 1000px) {
     .navbar-custom {
         /* height: 80rem; */
         font-size: 1.5rem;

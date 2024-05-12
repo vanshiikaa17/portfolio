@@ -1,4 +1,4 @@
-import { FaCss3, FaFileAlt, FaGithub, FaHtml5, FaLinkedin, FaNodeJs, FaReact } from "react-icons/fa"
+import { FaCss3, FaGithub, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa"
 import "./about.css"
 import { SiExpress, SiJavascript, SiMongodb, SiSpringboot } from "react-icons/si"
 import { GrMysql } from "react-icons/gr"
@@ -34,13 +34,13 @@ const About = () => {
                 {/* <h3>Please find my resume here: </h3>
         <button className="abtbtn">MY RESUME</button> */}
 
-                <div class="social">
+                {/* <div class="social">
                     <h3>My resume: </h3>
                     <i><FaLinkedin /></i>
                     <i><FaGithub /></i>
                     
-                    <i><FaFileAlt /></i>
-                </div>
+                    <a href={pdf}> <i><FaFileAlt /></i></a>
+                </div> */}
             </div>
 
             <i></i>

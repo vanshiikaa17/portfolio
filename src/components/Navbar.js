@@ -15,17 +15,17 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse navitems-custom" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0 flex-row">
                         <li className="nav-item">
-                            <AnchorLink className="nav-link" href="#home">Home <span className="sr-only">(current)</span></AnchorLink>
+                            <AnchorLink className="nav-link" href="#home">HOME <span className="sr-only">(current)</span></AnchorLink>
                         </li>
                         <li className="nav-item">
-                            <AnchorLink className="nav-link" href="#about">About</AnchorLink>
+                            <AnchorLink className="nav-link" href="#about">ABOUT</AnchorLink>
                         </li>
                         <li className="nav-item">
-                            <AnchorLink className="nav-link" href="#projects">Projects</AnchorLink>
+                            <AnchorLink className="nav-link" href="#projects">PROJECTS</AnchorLink>
                         </li>
 
                         <li className="nav-item">
-                            <AnchorLink className="nav-link" href="#contact">Contact</AnchorLink>
+                            <AnchorLink className="nav-link" href="#contact">CONTACT</AnchorLink>
                         </li>
                     </ul>
                 </div>
