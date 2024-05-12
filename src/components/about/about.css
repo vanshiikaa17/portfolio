@@ -45,7 +45,7 @@
     flex-wrap: wrap;
     width: 50%;
     padding-bottom: 4rem;
-    border-bottom: 1px solid var(--orange);
+    /* border-bottom: 1px solid var(--orange); */
 }
 .stack>div{
     background-color: rgba(209, 209, 209, 0.5);
