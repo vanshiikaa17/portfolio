@@ -11,7 +11,7 @@
 }
 #projects h1{
     text-align: center;
-    font-family:  "Poppins" Cursive;
+    font-family:  "Poppins", Cursive;
     font-size: 3rem;
     color: var(--blue);
 }
@@ -27,14 +27,14 @@
 }
 .desc>h2{
     margin-top: 2rem;
-    font-family: "Dancing Script" ;
+    font-family: "Dancing Script",Cursive ;
     font-size: 3rem;
 }
 .projectcard>img{
     height: 25rem;
 }
 .desc>p{
-    font-family:"Roboto" Cursive;
+    font-family:"Roboto", Cursive;
     font-size: 1.5rem;
     margin: 2rem;
     
@@ -92,7 +92,7 @@
        padding: 2rem;
     }
     .desc>h2{
-        font-family: "Dancing Script" Cursive !important;
+        font-family: "Dancing Script", Cursive;
         margin-top: 1rem;
         font-size: 2rem;
     }

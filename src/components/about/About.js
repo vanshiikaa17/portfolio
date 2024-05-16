@@ -3,6 +3,7 @@ import "./about.css"
 import { SiExpress, SiJavascript, SiMongodb, SiSpringboot } from "react-icons/si"
 import { GrMysql } from "react-icons/gr"
 import { PiFileCppFill } from "react-icons/pi"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const About = () => {
     return (
@@ -11,9 +12,12 @@ const About = () => {
             <div class="aboutcontainer">
                 <div class="aboutdesc">
                     <h2>What I do?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptatum harum nobis aperiam, non ut? Id autem nostrum natus adipisci modi commodi eum exercitationem. Animi facere accusantium illum ut excepturi mollitia maxime officiis labore saepe, id corporis magnam veniam dolore sit aut tenetur libero. Dolorem!</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sed, assumenda odit velit laudantium architecto adipisci facere consequatur quos, deserunt exercitationem ex rem ullam doloribus? Eligendi, sequi. Ab exercitationem delectus molestias maxime, facilis porro qui?</p>
+                    <p>I'm a versatile <b>Fullstack developer</b> proficient in crafting dynamic web solutions. With expertise in <b>MongoDB, Express.js, React.js, and Node.js</b>, I bring creativity and functionality together to build immersive digital experiences.</p>
+                    <p>I possess a talent for devising efficient solutions to real-world challenges. Drawing from <b>industry experience</b> and a relentless drive for self-improvement, I've honed a diverse skill set. Explore my portfolio in the <AnchorLink href="#projects">Projects</AnchorLink> section to see my capabilities in action.</p>
+                    <p>Driven by a passion for innovation and a commitment to excellence, I'm dedicated to bringing your web projects to life with precision and flair. Let's collaborate and create something extraordinary together.</p>
+
                 </div>
+
                 <div class="techstack">
                     <h2>My Skillset</h2>
                     <div class="stack">
@@ -34,13 +38,7 @@ const About = () => {
                 {/* <h3>Please find my resume here: </h3>
         <button className="abtbtn">MY RESUME</button> */}
 
-                {/* <div class="social">
-                    <h3>My resume: </h3>
-                    <i><FaLinkedin /></i>
-                    <i><FaGithub /></i>
-                    
-                    <a href={pdf}> <i><FaFileAlt /></i></a>
-                </div> */}
+               
             </div>
 
             <i></i>

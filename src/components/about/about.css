@@ -4,7 +4,7 @@
 }
 #about h1{
     text-align: center;
-    font-family: "Poppins" Cursive ;
+    font-family: "Poppins", Cursive ;
     font-size: 3rem ;
     color: var(--blue);
 }
@@ -23,11 +23,11 @@
     /* width: 60%; */
 }
 .aboutdesc>h2{
-    font-family:  "Poppins" Cursive;
+    font-family:  "Poppins", Cursive;
     font-size: 2.5rem;
 }
 .aboutdesc>p{
-    font-family: "Roboto" Cursive;
+    font-family: "Roboto", Cursive;
     font-size: 1.5rem ;
 }
 .techstack{
@@ -69,26 +69,7 @@
     font-size: 2rem ;
 }
 
-.social{
-    /* background-color: #dfdfdf; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
-.social a{
-    font-size: 3rem;
-    margin: 1rem;
-    cursor: pointer;
-    transition: ease-in-out 0.25s;
-    color: rgb(23, 23, 23);
-
-    /* color: var(--blue); */
-
-}
-.social a:hover{
-    color: var(--orange);
-}
 @media screen and (min-width: 800px) and (max-width: 1400px) {
     #about h1{
         font-size: 2rem;
@@ -170,12 +151,5 @@
         font-size: 1.5rem ;
     }
     
-    .social a{
-        font-size: 1.5rem;
-        margin: 0.5rem;
-    
-    }
-    .social>h3{
-        font-size: 1.3rem;
-    }
+  
 }

@@ -15,7 +15,7 @@
     /* min-height: 60rem; */
     /* max-height: 100vh; */
     position: relative;
-    font-family: "Poppins" Cursive;
+    font-family: "Poppins", Cursive;
 }
 
 .innerHome {
@@ -43,7 +43,7 @@
     background-color: var(--blue);
     border-radius: 3rem;
     color: white;
-    font-family: "Roboto" Cursive;
+    font-family: "Roboto", Cursive;
     font-size: 1.35rem;
     height: 4rem;
     width: 11rem;
